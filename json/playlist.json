@@ -1,41 +1,37 @@
 {
   "licenses": [
-    {
-      "domain": "liveanevia.mncnow.id",
-      "drm_url": "https://mrpw.ptmnc01.verspective.net/?deviceId=NTM5NDVlNjktZDQxYS0zMTExLTliZDYtZmUyZDg5M2M2ODg3"
-    },
-    {
-      "domain": "stream-cdn.mncnow.id",
-      "drm_url": "https://mrpw.ptmnc01.verspective.net/?deviceId=NTM5NDVlNjktZDQxYS0zMTExLTliZDYtZmUyZDg5M2M2ODg3"
-    }
   ],
   "categories": [
-    {
+        {
       "id": 0,
-      "name": "Nasional"
+      "name": "Movie"
     },
     {
       "id": 1,
-      "name": "Berita"
+      "name": "Nasional"
     },
     {
       "id": 2,
-      "name": "Hiburan"
+      "name": "Berita"
     },
     {
       "id": 3,
-      "name": "Musik"
+      "name": "Hiburan"
     },
     {
       "id": 4,
-      "name": "Anak"
+      "name": "Musik"
     },
     {
       "id": 5,
-      "name": "Edukasi"
+      "name": "Anak"
     },
     {
       "id": 6,
+      "name": "Edukasi"
+    },
+    {
+      "id": 7,
       "name": "Religi"
     },
     {
@@ -43,33 +39,33 @@
       "name": "Olahraga"
     },
     {
-      "id": 8,
+      "id": 7,
       "name": "Olympic"
     }
   ],
   "channels": [
     {
-      "cid": 2,
-      "name": "&Flix",
-      "stream_url": "https://y5w8j4a9.ssl.hwcdn.net/andflixhd/tracks-v1a1/mono.m3u8"
+      "cid": 0,
+      "name": "Paramount",
+      "stream_url": "rtp://@239.1.1.11:8040"
     },
     {
-      "cid": 2,
-      "name": "&Prive",
-      "stream_url": "https://y5w8j4a9.ssl.hwcdn.net/andprivehd/tracks-v1a1/mono.m3u8"
+      "cid": 0,
+      "name": "HBO",
+      "stream_url": "rtp://@239.1.1.95:8544"
     },
     {
-      "cid": 1,
-      "name": "ABC Australia",
+      "cid": 0,
+      "name": "HBO Signature",
       "stream_url": "https://liveanevia.mncnow.id/live/eds/AustraliaPlus/sa_dash_vmx/AustraliaPlus.mpd"
     },
     {
-      "cid": 7,
-      "name": "ACCDN",
-      "stream_url": "https://120sports-accdn-1.samsung.wurl.com/manifest/playlist.m3u8"
+      "cid": 0,
+      "name": "Cinemax",
+      "stream_url": "rtp://@239.1.1.87:8496"
     },
     {
-      "cid": 7,
+      "cid": 0,
       "name": "Adventure Sports Network",
       "stream_url": "https://dai2.xumo.com/amagi_hls_data_xumo1212A-adventuresportsnetwork/CDN/768x432_1200000/index.m3u8"
     },
